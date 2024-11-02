@@ -1,0 +1,26 @@
+.img {
+    position: absolute;
+    left: 43.5vw;
+    top: 35rem;
+    filter: brightness(60%);
+    max-width: 15rem;
+    animation: img 2.5s infinite;
+}
+
+img {
+    max-width: 15rem;
+}
+@keyframes img {
+    0% {
+        rotate: -5deg;
+        filter: brightness(60%);
+    }
+    50% {
+        rotate: 5deg;
+        filter: brightness(30%);
+    }
+    100% {
+        rotate: -5deg;
+        filter: brightness(60%);
+    }
+}
